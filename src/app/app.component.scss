@@ -1,0 +1,42 @@
+.verifyed-wrapper {
+}
+
+.left {
+    height: 80px;
+    width: 80px;
+    background-color: #555;
+    border-radius: 50%;
+    position: absolute;
+        z-index: 9;
+
+}
+
+.image-wrapper {
+    height: 80%;
+    width: 80%;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+    top: 10%;
+    left: 10%;
+}
+
+.center {
+    left: 50px;
+    height: 80px;
+    width: 200px;
+    background-color:green;
+    position: absolute;
+    z-index: 2;
+}
+
+.right {
+    left: 210px;
+    height: 80px;
+    width: 80px;
+    background-color:red;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
