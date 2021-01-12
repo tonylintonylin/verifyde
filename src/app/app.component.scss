@@ -1,90 +1,114 @@
 .verifyde-wrapper {
-}
 
-.left-container {
-    height: 80px;
-    width: 80px;
-    background-color:white;
-    float: left;
+    opacity: 0;
     position: absolute;
-    z-index: 8;
-}
+    bottom: 20px;
+    left: 20px;
+    z-index:5;
+    display:inline-block;
 
-.left-content {
-    height: 80px;
-    width: 80px;
-    background-color: #555;
-    border-radius: 50%;
-    float: left;
-    position: absolute;
-    z-index: 9;
-}
+    .left-container {
+        height: 80px;
+        width: 80px;
+        float: left;
+        position: absolute;
+        z-index: 8;
 
-.left-background {
-    height: 80px;
-    width: 40px;
-    background-color: yellow;
-    left: 50%;
-    position: absolute;
-    z-index: 3;
-}
+        .left-content {
+            height: 80px;
+            width: 80px;
+            background-color: #555;
+            border-radius: 50%;
+            float: left;
+            position: absolute;
+            z-index: 9;
 
-.image-wrapper {
-    height: 80%;
-    width: 80%;
-    background-color: blue;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 10;
-    top: 10%;
-    left: 10%;
-}
+            -moz-box-shadow:    10px 20px 40px 0 rgba(36,35,40,.1);
+            -webkit-box-shadow: 10px 20px 40px 0 rgba(36,35,40,.1);
+            box-shadow:         10px 20px 40px 0 rgba(36,35,40,.1);
+        }
 
-.center {
-    left: 88px;
-    height: 80px;
-    width: 240px;
-    background-color:green;
-    justify-content: center;
-    position: absolute;
-    z-index: 2;
-}
+        .left-background {
+            height: 80px;
+            width: 40px;
+            background-color: yellow;
+            left: 50%;
+            position: absolute;
+            z-index: 3;
+        }
 
-.headline{
-    font-size: 14px;
-    margin-top: 0.5rem;
-    margin-left: 0.5rem;
-    margin-bottom: 0.5rem;
-}
+        .image-wrapper {
+            height: 80%;
+            width: 80%;
+            background-color: blue;
+            border-radius: 50%;
+            position: absolute;
+            z-index: 10;
+            top: 10%;
+            left: 10%;
+        }
+    }
 
-.description{
-    margin-left: 0.5rem;
-    font-size: 14px;
-    margin-bottom: 0.5rem;
-}
+ 
 
-.bottom{
-    font-size: 14px;
-}
+    .center {
+        left: 88px;
+        height: 80px;
+        width: 240px;
+        background-color:green;
+        justify-content: center;
+        position: absolute;
+        z-index: 2;
 
-.time{
-    font-size: 14px;
-    display: inline-block;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-}
+            
+        -moz-box-shadow:    10px 20px 40px 0 rgba(36,35,40,.1);
+        -webkit-box-shadow: 10px 20px 40px 0 rgba(36,35,40,.1);
+        box-shadow:         10px 20px 40px 0 rgba(36,35,40,.1);
 
-.verifyde-by{
-    font-size: 14px;
-    display: inline-block;
-}
+        
+        .headline{
+            font-size: 14px;
+            margin-top: 0.5rem;
+            margin-left: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
 
-.right-container {
-    left: 288px;
-    height: 80px;
-    width: 80px;
-    background-color:red;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 1;
+        .description{
+            margin-left: 0.5rem;
+            font-size: 14px;
+            margin-bottom: 0.5rem;
+        }
+
+        .bottom{
+            font-size: 14px;
+
+            .time{
+                font-size: 14px;
+                display: inline-block;
+                margin-left: 0.5rem;
+                margin-right: 0.5rem;
+            }
+
+            .verifyde-by{
+                font-size: 14px;
+                display: inline-block;
+            }
+        }
+    }
+
+
+    .right-container {
+        left: 288px;
+        height: 80px;
+        width: 80px;
+        background-color:red;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 1;
+
+        
+        -moz-box-shadow:    10px 20px 40px 0 rgba(36,35,40,.1);
+        -webkit-box-shadow: 10px 20px 40px 0 rgba(36,35,40,.1);
+        box-shadow:         10px 20px 40px 0 rgba(36,35,40,.1);
+    }
 }
