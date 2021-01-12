@@ -1,14 +1,32 @@
-.verifyed-wrapper {
+.verifyde-wrapper {
 }
 
-.left {
+.left-container {
+    height: 80px;
+    width: 80px;
+    background-color:white;
+    float: left;
+    position: absolute;
+    z-index: 8;
+}
+
+.left-content {
     height: 80px;
     width: 80px;
     background-color: #555;
     border-radius: 50%;
+    float: left;
     position: absolute;
-        z-index: 9;
+    z-index: 9;
+}
 
+.left-background {
+    height: 80px;
+    width: 40px;
+    background-color: yellow;
+    left: 50%;
+    position: absolute;
+    z-index: 3;
 }
 
 .image-wrapper {
@@ -23,16 +41,46 @@
 }
 
 .center {
-    left: 50px;
+    left: 88px;
     height: 80px;
-    width: 200px;
+    width: 240px;
     background-color:green;
+    justify-content: center;
     position: absolute;
     z-index: 2;
 }
 
-.right {
-    left: 210px;
+.headline{
+    font-size: 14px;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.description{
+    margin-left: 0.5rem;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+
+.bottom{
+    font-size: 14px;
+}
+
+.time{
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.verifyde-by{
+    font-size: 14px;
+    display: inline-block;
+}
+
+.right-container {
+    left: 288px;
     height: 80px;
     width: 80px;
     background-color:red;
